@@ -129,3 +129,4 @@ This article was written by Xander Thynx, and researched using AI. This text was
 
 © 2026 Xander Thynx. All rights reserved.
 
+https://docs.google.com/document/d/1yzXcyaZKZM3fklheAcFgOThEpGi7CficLuPurf2WHrE/edit?usp=sharing
