@@ -61,6 +61,10 @@ ax1.legend(loc='upper left')
 # =========================================================================
 # STYLE 2: THE TERNARY SMITH CHART (CONFORMAL IMITTANCE DOMAIN)
 # =========================================================================
+
+<img width="1024" height="559" alt="Radial and Barycentric Mapping of Ternary Signal Intergity" src="https://github.com/user-attachments/assets/92ab47b8-a893-4373-bf53-dc5a52f57e8c" />
+
+
 # Draw Outer Reflection Coefficient Unit Circle (|Gamma| = 1)
 theta = np.linspace(0, 2*np.pi, 300)
 ax2.plot(np.cos(theta), np.sin(theta), 'k-', lw=2.5)
@@ -79,6 +83,9 @@ for x in [0.5, 1.5, -0.5, -1.5]:
     c = plt.Circle((1, center_y), abs(radius), edgecolor='darkorange', facecolor='none', alpha=0.5, lw=1.2, ls='--')
     ax2.add_patch(c)
 
+
+<img width="514" height="559" alt="Novel Delta Configuration Mapping for Ternary Bounrdary State Chart" src="https://github.com/user-attachments/assets/dbb9df13-7d11-421b-a451-9477a94c72d1" />
+
 # Map Three Discrete Balancing Focus Zones onto the Transmission Grid
 ax2.plot([0.5, -0.5, 0.0], [0.5, -0.5, 0.0], 'bo', markersize=6, alpha=0.7)
 ax2.text(0.5, 0.58, "Region (+1)", color='blue', weight='bold', ha='center')
@@ -95,6 +102,10 @@ z_normalized = Z_load / Z_characteristic
 
 gamma = (z_normalized - 1) / (z_normalized + 1)
 ax2.plot(gamma.real, gamma.imag, 'r-', lw=2, label="Complex Reflection Trace ($\Gamma$)")
+
+
+<img width="1024" height="559" alt="Radial and Barycentric Mapping of Ternary Signal Intergity" src="https://github.com/user-attachments/assets/758d0b3d-1978-42d5-a595-58ae8a6ef776" />
+<img width="1024" height="559" alt="Two Geometric Mapping Frameworks for Balanced Ternary Satae Analysis" src="https://github.com/user-attachments/assets/8f028a5a-4963-4000-96b7-10a64072a71b" />
 
 # Format Ternary Smith Chart
 ax2.axhline(0, color='k', lw=0.8, alpha=0.5)
