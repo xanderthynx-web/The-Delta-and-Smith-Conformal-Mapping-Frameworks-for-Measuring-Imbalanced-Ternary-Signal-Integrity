@@ -2,6 +2,7 @@
 A Newly Invented Mapping Framework for Measuring Imbalanced Ternary Signal Integrity
 # Initialize visualization environment for both Ternary Chart Styles
 .
+https://docs.google.com/document/d/1yzXcyaZKZM3fklheAcFgOThEpGi7CficLuPurf2WHrE/edit?usp=sharing
 .
 .
 
