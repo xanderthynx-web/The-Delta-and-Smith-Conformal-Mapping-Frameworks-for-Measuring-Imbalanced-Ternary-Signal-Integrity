@@ -11,12 +11,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 7))
-fig.suptitle("COMPLEX RADIAL AND BARYCENTRIC MAPPING FOR TERNARY SIGNAL INTEGRITY", fontsize=14, weight='bold')
+"COMPLEX RADIAL AND BARYCENTRIC MAPPING FOR TERNARY SIGNAL INTEGRITY"
 
 # =========================================================================
 # STYLE 1: THE DELTA TERNARY STATE BOUNDARY CHART (BARYCENTRIC DOMAIN)
 # =========================================================================
+
+
+
+
+
+
 h = 1.0
 side = 2.0 / np.sqrt(3)
 v_plus1 = np.array([0, 2/3 * h])
